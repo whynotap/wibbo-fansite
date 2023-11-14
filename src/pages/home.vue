@@ -10,9 +10,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="#"
-						><img src="@/assets/imgs/user.png" /><span>Home</span></a
-					>
+					<a href="#"><img src="@/assets/imgs/user.png" /><span>Home</span></a>
 				</li>
 				<div>
 					<!-- Déroulant, à tester avec cette structure -->
@@ -25,18 +23,10 @@
 					</ul>
 				</div>
 				<li>
-					<a href="#"
-						><img src="@/assets/imgs/topme.gif" /><span
-							>Sécurité</span
-						></a
-					>
+					<a href="#"><img src="@/assets/imgs/topme.gif" /><span>Sécurité</span></a>
 				</li>
 				<li>
-					<a href="#"
-						><img src="@/assets/imgs/support.gif" /><span
-							>Support</span
-						></a
-					>
+					<a href="#"><img src="@/assets/imgs/support.gif" /><span>Support</span></a>
 				</li>
 			</ul>
 		</nav>
@@ -44,9 +34,7 @@
 
 	<section class="grid">
 		<div>
-			<img
-				src="https://imaging.wibbo.org/?figure=hr-170-31.hd-209-1359.lg-280-110.sh-3035-110.ch-3030-110.he-3858-110&head_direction=3&gesture=sml"
-			/>
+			<img src="https://imaging.wibbo.org/?figure=hr-170-31.hd-209-1359.lg-280-110.sh-3035-110.ch-3030-110.he-3858-110&head_direction=3&gesture=sml" />
 			<div>
 				<p>Python</p>
 				<p>
