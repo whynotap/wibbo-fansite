@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wibbo'Up - S'identifier (Admin)</title>
-    <link rel="icon" type="image/x-icon" href="https://wibbo.org/favicon.ico">
-</head>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config.js
-  module.exports = {
-    plugins: [
-      require('@tailwindcss/forms'),
-    ],
-  }
-</script>
-
-
-
-  <body class="h-full bg-cyan-900">
-
-<div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+<template>
+    <div class="flex flex-col justify-center min-h-full px-6 py-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-      <img class="mx-auto h-20 w-auto" src="src/imgs/logo.png" alt="Logo">
-      <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-neutral-50">Administration</h2>
+      <img class="w-auto h-20 mx-auto" src="@/assets/imgs/logo.png" alt="Logo">
+      <h2 class="mt-10 text-2xl font-bold leading-9 tracking-tight text-center text-neutral-50">Administration</h2>
     </div>
   
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
@@ -48,10 +27,9 @@ tailwind.config.js
           <button type="submit" class="flex w-full justify-center rounded-md bg-emerald-500  px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">S'identifier</button>
         </div>
         <div>
-          <a href="register.html" class="flex w-full justify-center rounded-md bg-emerald-500  px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">S'enregistrer</button></a>
+          <a href="register.html" class="flex w-full justify-center rounded-md bg-emerald-500  px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">S'enregistrer</a>
         </div>
       </form>
     </div>
   </div>
-</body>
-</html>
+</template>
