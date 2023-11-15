@@ -1,6 +1,7 @@
 <template>
     <Navbar />
-        <section class="grid grid-cols-2 gap-2 sm:w-3/4 mx-auto">
+    <section class="grid grid-cols-2 gap-2 sm:w-3/4 mx-auto">
+        <div class="col-span-1">
             <div>
                 <img src="https://imaging.wibbo.org/?figure=hr-170-31.hd-209-1359.lg-280-110.sh-3035-110.ch-3030-110.he-3858-110&head_direction=3&gesture=sml" />
                 <div>
@@ -12,24 +13,6 @@
                 </div>
             </div>
 
-            <div class="flex justify-end">
-                <img src="@/assets/imgs/connexion.gif" />
-                <form class="flex flex-col">
-                    <label for="username">Espace Staff</label>
-                    <input
-                        id="username"
-                        type="text"
-                        placeholder="Ton pseudo Wibbo..."
-                    />
-                    <input
-                        id="password"
-                        type="password"
-                        placeholder="Ton mot de passe..."
-                    />
-                </form>
-            </div>
-
-            <div class="col-span-2">
                 <div>
                     <h4>Version bêta</h4>
                     <p>
@@ -56,7 +39,25 @@
                         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
                     ></iframe>
                 </div>
-            </div>
-        </section>
+        </div>
+        <div class="col-span-1">
+                    <div class="flex justify-end">
+                        <img src="@/assets/imgs/connexion.gif" />
+                        <form class="flex flex-col">
+                            <label for="username">Espace Staff</label>
+                            <input
+                                id="username"
+                                type="text"
+                                placeholder="Ton pseudo Wibbo..."
+                            />
+                            <input
+                                id="password"
+                                type="password"
+                                placeholder="Ton mot de passe..."
+                            />
+                        </form>
+                    </div>
+                </div>
+	</section>
     <Footer />
 </template>
