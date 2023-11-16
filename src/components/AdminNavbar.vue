@@ -34,8 +34,6 @@
 </template>
 
 <script setup>
-definePageMeta({ layout: 'AdminNavbar' })
-
 const { $swal } = useNuxtApp()
 
 const showError = () => {
